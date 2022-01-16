@@ -1,0 +1,212 @@
+/* Header Top */
+
+header ul {
+	padding: 0;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.header {
+	border-bottom: 7px solid #b80632;
+}
+
+.header-top {
+	/* display: flex;
+	justify-content: flex-start;
+	align-items: center; */
+
+	background: linear-gradient(to bottom, #f2f2f2 0%, #d9d9d9 100%);
+
+	padding: 15px 0;
+}
+
+.header-top .header-locations {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	margin-bottom: 0;
+	margin-right: 296px;
+}
+
+.header-top .header-locations li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	margin-right: 30px;
+}
+
+.header-top .header-locations li:last-child {
+	margin-right: 0;
+}
+
+.header-top .address a:hover {
+	text-decoration: none;
+}
+
+.header-top .address a:hover span {
+	color: #b80632;
+}
+
+.header-top .address a:hover i {
+	color: #000000;
+}
+
+.header-top .address i {
+	color: #b80632;
+	font-size: 16px;
+	margin-right: 3px;
+	letter-spacing: .025em;
+	transition: .3s color ease-in-out;
+}
+
+.header-top .address span {
+	color: #000000;
+	transition: .3s color ease-in-out;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.header-top .phone a {
+	font-size: 16px;
+	line-height: 1.5em;
+	letter-spacing: .01em;
+}
+
+.header-top .phone a:hover {
+	text-decoration: none;
+}
+
+.header-top .phone i {
+	display: none;
+}
+
+.header-top .phone span {
+	color: #b80632;
+	font-weight: 700;
+	transition: .3s color ease-in-out, .3s background-color ease-in-out;
+}
+
+.header-top .phone span:hover {
+	color: #000000;
+}
+
+.header-top .socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-top .socials a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 30px;
+	height: 30px;
+
+	transition: all .2s ease-in-out;
+	background-color: #b80632;
+}
+
+.header-top .socials a:first-child {
+	margin-right: 1px;
+}
+
+.header-top .socials a.facebook:hover {
+	background-color: #3b5998;
+	text-decoration: none;
+}
+
+.header-top .socials a.instagram:hover {
+	background-color: #bc2a8d;
+	text-decoration: none;
+}
+
+.header-top .socials i {
+	color: #fff;
+	font-size: 12px;
+}
+
+/* Header Bottom */
+
+.navbar-expand-lg {
+	padding: 20px 0;
+}
+
+.navbar-brand {
+	margin-right: 50px;
+	padding: 0;
+}
+
+.navbar-nav>li>a {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 15px !important;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 50px;
+	letter-spacing: .01em;
+	text-transform: uppercase;
+	transition: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0, 0, 0, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+	color: #fff;
+}
+
+.nav-item:hover {
+	background: #b80632;
+}
+
+.nav-item:hover .nav-link,
+.nav-link {
+	color: #fff;
+}
+
+.nav-item:hover .dropdown-toggle::after {
+	color: #fff;
+}
+
+.dropdown-toggle::after {
+	color: #b80632;
+	font-size: 12px;
+}
+
+.nav-item:last-child>a {
+	padding-right: 15px !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	min-width: 250px;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu>a {
+	font-family: 'Open Sans', sans-serif;
+
+	background: #e9083f;
+
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 30px;
+
+	padding: 3px 20px;
+}
+
+.dropdown-menu>a:hover {
+	background: #f82c5e;
+	color: #ffffff;
+}
