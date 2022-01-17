@@ -287,6 +287,8 @@ header ul {
 	.header-top .header-locations {
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
+		flex: 0 0 100%;
 
 		margin-bottom: 15px;
 	}
