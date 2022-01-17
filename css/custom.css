@@ -1376,9 +1376,9 @@ textarea.mangi-control {
         width: 100%;
     }
 
-    .hero2 .embed-responsive {
+    /* .hero2 .embed-responsive {
         display: block;
-    }
+    } */
 
     .hero2.bg::after {
         background: transparent;
@@ -1392,6 +1392,28 @@ textarea.mangi-control {
     .attach_block-wrapper {
         width: 100%;
     }
+
+    .hero2 .head_block {
+        transform: none;
+        height: 500px;
+    }
+
+    .body-cranework .hero2 {
+        height: 500px;
+    }
+
+    .custom-play-button {
+        transform: translateX(-50%);
+        bottom: 40px;
+        top: unset;
+        width: 70px;
+        height: 70px;
+    }
+
+    .arrow-down {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -1411,5 +1433,9 @@ textarea.mangi-control {
         margin: 0;
         letter-spacing: 0;
         font-size: 11px;
+    }
+
+    .body-cranework .hero2, .hero2 .head_block {
+        height: 550px;
     }
 }
