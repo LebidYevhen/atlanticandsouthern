@@ -1435,7 +1435,8 @@ textarea.mangi-control {
         font-size: 11px;
     }
 
-    .body-cranework .hero2, .hero2 .head_block {
+    .body-cranework .hero2,
+    .hero2 .head_block {
         height: 550px;
     }
 }
